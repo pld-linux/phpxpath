@@ -8,6 +8,7 @@ License:	LGPL
 Source0:	http://dl.sourceforge.net/phpxpath/PhpXPath-%{version}.zip
 # Source0-md5:	44a433d971f51d3431f5abe98dfc703e
 URL:		http://phpxpath.sourceforge.net/
+BuildRequires:	unzip
 Requires:	php-common
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -25,7 +26,7 @@ i dokonywania modyfikacji korzystaj±c z API w styli DOM. Nie wymaga
 biblioteki PHP DOM XML.
 
 %prep
-%setup  -q -c
+%setup -q -c
 
 %install
 rm -rf $RPM_BUILD_ROOT
