@@ -15,14 +15,14 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		_phpsharedir	%{_datadir}/php
 
 %description
-A php class for searching an XML document using XPath, and making
+A PHP class for searching an XML document using XPath, and making
 modifications using a DOM style API. Does not require the DOM XML PHP
 library.
 
 %description -l pl
-Clasa php s³u¿±ca do szukania dokumentów XML korzystaj±c z XPath i
-tworz±c modyfikacje korzystaj±c z API w styli DOM. Nie wymaga
-biblioteki DOM XML PHP.
+Klasa PHP s³u¿±ca do przeszukiwania dokumentów XML przy u¿yciu XPath
+i dokonywania modyfikacji korzystaj±c z API w styli DOM. Nie wymaga
+biblioteki PHP DOM XML.
 
 %prep
 %setup  -q -c
