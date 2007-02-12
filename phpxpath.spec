@@ -1,5 +1,5 @@
 Summary:	A PHP Xpath library
-Summary(pl):	Biblioteka PHP Xpath
+Summary(pl.UTF-8):   Biblioteka PHP Xpath
 Name:		phpxpath
 Version:	3.5
 Release:	1
@@ -20,9 +20,9 @@ A PHP class for searching an XML document using XPath, and making
 modifications using a DOM style API. Does not require the DOM XML PHP
 library.
 
-%description -l pl
-Klasa PHP s³u¿±ca do przeszukiwania dokumentów XML przy u¿yciu XPath
-i dokonywania modyfikacji korzystaj±c z API w styli DOM. Nie wymaga
+%description -l pl.UTF-8
+Klasa PHP sÅ‚uÅ¼Ä…ca do przeszukiwania dokumentÃ³w XML przy uÅ¼yciu XPath
+i dokonywania modyfikacji korzystajÄ…c z API w styli DOM. Nie wymaga
 biblioteki PHP DOM XML.
 
 %prep
