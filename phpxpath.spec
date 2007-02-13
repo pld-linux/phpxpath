@@ -1,5 +1,5 @@
 Summary:	A PHP Xpath library
-Summary(pl.UTF-8):   Biblioteka PHP Xpath
+Summary(pl.UTF-8):	Biblioteka PHP Xpath
 Name:		phpxpath
 Version:	3.5
 Release:	1
